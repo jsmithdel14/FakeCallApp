@@ -27,6 +27,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, CallScreen::class.java)
                 .putExtra("number",callerName.text.toString()))})
 
+
+        // Makes actual call out
 //        callButton.setOnClickListener(View.OnClickListener {
 //            var intent = Intent(Intent.ACTION_);
 //            intent.setData(Uri.parse("tel:6055551212"));

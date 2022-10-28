@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".answerCall">
+
+    <TextView
+        android:id="@+id/phoneNumber"
+        android:layout_width="155dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="168dp"
+        android:text="CallerNumber"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="114dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/light_blue_600"
+        android:backgroundTint="@color/light_blue_600"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/phoneNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@color/light_blue_600"
+        tools:srcCompat="@android:mipmap/sym_def_app_icon"
+        tools:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="53dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="352dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton6"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/stat_notify_call_mute" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="176dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton6"
+        app:srcCompat="@android:drawable/ic_media_pause" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="54dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/stat_sys_speakerphone" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton5"
+        app:layout_constraintTop_toBottomOf="@+id/phoneNumber"
+        app:srcCompat="@android:drawable/ic_dialog_dialer" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="62dp"
+        android:layout_height="59dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+        app:srcCompat="@android:drawable/sym_call_missed" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="54dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="64dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton4"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+        app:srcCompat="@android:drawable/presence_video_online" />
+</androidx.constraintlayout.widget.ConstraintLayout>
