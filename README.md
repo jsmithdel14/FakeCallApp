@@ -1,6 +1,4 @@
 # FakeCallApp
-# Overview
-
 
 This application is a Kotlin app that allows the user to input a caller name or number and then send a fake call to the users phone. This app has three separate screens it goes through. The first screen is a basic interface where you input the caller name or number and has a button that goes to the next screen. The next screen is the screen that looks like you are receiving a call. If you hit the answer button that brings you to the last screen which looks like an active call screen 
 
