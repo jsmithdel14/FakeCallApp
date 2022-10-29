@@ -1,21 +1,19 @@
 # FakeCallApp
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
 
-{Provide a description of your app.  Describe how to use the app.}
+This application is a Kotlin app that allows the user to input a caller name or number and then send a fake call to the users phone. This app has three separate screens it goes through. The first screen is a basic interface where you input the caller name or number and has a button that goes to the next screen. The next screen is the screen that looks like you are receiving a call. If you hit the answer button that brings you to the last screen which looks like an active call screen 
 
-{Describe your purpose for creating this app.}
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the app running and a walkthrough of the code.}
+The purpose of creating this app was to learn Kotlin as well as learning Android Studio. This is my first app in Kotlin and Android Studio but I plan on creating another app in a team so I thought this would be a great starter project for myself.
 
 [Software Demo Video](https://youtu.be/F4akRT67ITI)
 
 # Development Environment
 
-{Describe the tools that you used to develop the app}
+Android Studio
 
-{Describe the programming language that you used and any libraries.}
+Kotlin
 
 # Useful Websites
 
@@ -25,7 +23,6 @@
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* I want to do improved work on the ui to make the call look more realistic 
+* I want to add an option to be able to make a call to other people using the same input I use to get the name/number. If it is a name it will check for that name in your contacts list
+* I want to add notifications and a timer so the call comes in later and sends a notification like a real call
